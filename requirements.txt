@@ -1,2 +1,3 @@
+typescript -g
 request lodash --save
 @types/lodash @types/request --save-dev
