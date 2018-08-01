@@ -6,7 +6,6 @@ var User = /** @class */ (function () {
         this.full_name = user_response.name;
         this.repo_count = user_response.public_repos;
         this.followers = user_response.followers;
-        // this.repos = user_response.;
     }
     return User;
 }());
