@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/yveyeh/typescript_second_tuto/issues"
   },
-  "homepage": "https://github.com/yveyeh/typescript_second_tuto#readme"
+  "homepage": "https://github.com/yveyeh/typescript_second_tuto#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.115",
+    "@types/request": "^2.47.1"
+  }
 }
