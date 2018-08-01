@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Repo = /** @class */ (function () {
-    function Repo() {
-        this.name = "";
-        this.description = "";
-        this.url = "";
-        this.size = 0;
-        this.fork_count = 0;
+    function Repo(repo) {
+        this.name = repo.name;
+        this.description = repo.description;
+        this.url = repo.html_url;
+        this.size = repo.size;
+        this.fork_count = repo.forks;
     }
     return Repo;
 }());
