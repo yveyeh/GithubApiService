@@ -1,0 +1,20 @@
+{
+  "name": "typescript_second_tuto",
+  "version": "1.0.0",
+  "description": "Simple command line utility. Make call to github REST API and just get some simple info of a user.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node js/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yveyeh/typescript_second_tuto.git"
+  },
+  "author": "Didi Yufen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yveyeh/typescript_second_tuto/issues"
+  },
+  "homepage": "https://github.com/yveyeh/typescript_second_tuto#readme"
+}
